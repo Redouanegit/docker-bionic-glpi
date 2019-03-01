@@ -1,12 +1,10 @@
-# docker-bionic-glpi
-
-Deploy GLPI with Docker
+# Deploy GLPI with Docker
 
 Based on https://github.com/driket/docker-glpi
 
 # Versions
 
-Ubuntu Bionic
+Ubuntu 18.04 LTS (Bionic Beaver)
 
 GLPI 9.4.0+
 
@@ -16,6 +14,6 @@ Customise glpi.env
 
 Then :
 
-docker-compose build
+> docker-compose build
 
-docker-compose up
+> docker-compose up
