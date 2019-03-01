@@ -56,4 +56,4 @@ service apache2 restart
 # start apache in foreground
 # source /etc/apache2/envvars
 # /usr/sbin/apache2 -D FOREGROUND
-tail -f /var/log/apache2/error.log -f /var/log/apache2/access.log
+# tail -f /var/log/apache2/error.log -f /var/log/apache2/access.log
